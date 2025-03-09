@@ -21,6 +21,7 @@
                     },
                     colors: {
                         'color-1': '#FFDC26',
+                        'color-2': '#F9DF8A'
                     },
                     backgroundImage: {
                         'banner-img': "url('/assets/cat-big.png')",
@@ -33,13 +34,13 @@
 </head>
 
 <body class="font-adlam-font">
-    <header class="mx-auto">
+    <header class=" mx-auto">
         <!-- nav section -->
         <nav class=" bg-[#FFF9F4] lg:px-36 lg:py-6">
             <div class="font-sora-font navbar">
                 <div class="navbar-start">
                     <img src="assets/logo-header.png" alt="">
-                    <a class="text-[1.6rem] ml-3 invisible lg:visible">Browse<span class="text-color-1">4</span>Pet</a>
+                    <a class="text-[1.6rem] ml-3 invisible lg:visible">Browse<span class="text-color-1">4</span>Pets</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 lg:text-xl">
@@ -62,26 +63,99 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div class="relative px-4 lg:px-36 md:mt-20">
+        <div class="relative lg:px-36 md:mt-20">
             <!-- content -->
-            <div class="absolute -top-40 md:-top-8 max-w-[356px] lg:max-w-[670px]">
-                <h1 class="text-xl md:text-2xl lg:text-5xl mt-8 mb-4">Pamper Your Pet,<br>Because They Deserve the Best</h1>
-                
-                <p class="text-[#111111] font-sora-font lg:text-xl mb-6">Discover a world of treats, toys, and essentials
+            <div class="mx-4 absolute -top-40 md:-top-8 max-w-[356px] lg:max-w-[670px]">
+                <h1 class="text-xl md:text-2xl lg:text-5xl mt-8 mb-4">Pamper Your Pet,<br>Because They Deserve the Best
+                </h1>
+
+                <p class="text-[#111111] font-sora-font text-sm lg:text-xl mb-6">Discover a world of treats, toys, and
+                    essentials
                     handpicked for
                     your furry friends. Shop now and make tails wag with joy!</p>
-                
+
                 <button class="border bg-color-1 rounded-md px-7 py-2 font-sora-font md:text-xl">find a pet</button>
             </div>
-
             <!-- img section -->
             <div class="mt-36 lg:mt-4 md:max-w-[1320px] mx-auto">
                 <img src="assets/cat-big.png" alt="" class="w-full">
             </div>
         </div>
     </header>
-    <main></main>
-    <footer></footer>
-</body>
 
+    <main>
+        <!-- Browse section -->
+        <div class="mx-4 lg:mx-36">
+            <h2 class="text-2xl lg:text-4xl mt-14 mb-8 lg:mt-36 lg:mb-12">Browse by Categories</h2>
+            <!-- card section -->
+            <div class="flex flex-wrap gap-[10px] lg:gap-6 justify-center lg:justify-between mb-14 lg:mb-32">
+                <!-- single card -->
+                <div class="px-10 py-7 lg:px-12 lg:py-8 bg-color-2 max-w-[174px] lg:max-w-[200px] rounded-xl">
+                    <!-- img -->
+                    <img src="assets/dog-cartoon.png" alt=""
+                        class="bg-white border rounded-full p-6 lg:p-7 mb-5 lg:mb-6">
+                    <div class="text-center">
+                        <p class="lg:text-xl">Dog</p>
+                        <small class="sm:text-xs">3 Items</small>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="px-10 py-7 lg:px-12 lg:py-8 bg-color-2 max-w-[174px] lg:max-w-[200px] rounded-xl">
+                    <!-- img -->
+                    <img src="assets/fish-cartoon.png" alt=""
+                        class="bg-white border rounded-full p-6 lg:p-7 mb-5 lg:mb-6">
+                    <div class="text-center">
+                        <p class="lg:text-xl">Fish</p>
+                        <small class="sm:text-xs">3 Items</small>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="px-10 py-7 lg:px-12 lg:py-8 bg-color-2 max-w-[174px] lg:max-w-[200px] rounded-xl">
+                    <!-- img -->
+                    <img src="assets/cat-cartoon.png" alt=""
+                        class="bg-white border rounded-full p-6 lg:p-7 mb-5 lg:mb-6">
+                    <div class="text-center">
+                        <p class="lg:text-xl">Cat</p>
+                        <small class="sm:text-xs">3 Items</small>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="px-10 py-7 lg:px-12 lg:py-8 bg-color-2 max-w-[174px] lg:max-w-[200px] rounded-xl">
+                    <!-- img -->
+                    <img src="assets/bird-cartoon.png" alt=""
+                        class="bg-white border rounded-full p-6 lg:p-7 mb-5 lg:mb-6">
+                    <div class="text-center">
+                        <p class="lg:text-xl">Bird</p>
+                        <small class="sm:text-xs">3 Items</small>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="px-10 py-7 lg:px-12 lg:py-8 bg-color-2 max-w-[174px] lg:max-w-[200px] rounded-xl">
+                    <!-- img -->
+                    <img src="assets/mouse-cartoon.png" alt=""
+                        class="bg-white border rounded-full p-6 lg:p-7 mb-5 lg:mb-6">
+                    <div class="text-center">
+                        <p class="lg:text-xl">Small Pet</p>
+                        <small class="sm:text-xs">3 Items</small>
+                    </div>
+                </div>
+                <!-- single card -->
+                <div class="px-10 py-7 lg:px-12 lg:py-8 bg-color-2 max-w-[174px] lg:max-w-[200px] rounded-xl">
+                    <!-- img -->
+                    <img src="assets/rabbit-cartoon.png" alt=""
+                        class="bg-white border rounded-full p-6 lg:p-7 mb-5 lg:mb-6">
+                    <div class="text-center">
+                        <p class="lg:text-xl">Rabbit</p>
+                        <small class="sm:text-xs">3 Items</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </main>
+    <footer>
+
+    </footer>
+</body>
 </html>
