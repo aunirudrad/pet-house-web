@@ -157,7 +157,8 @@
         <div class="bg-[#FFF9F4]">
             <div class="px-4 lg:p-36">
                 <h3 class="pt-8 text-2xl lg:text-4xl mb-9 lg:mb-12">Trending Pet Products</h3>
-                <div class="flex flex-col gap-5 md:flex-row justify-center lg:justify-between xl:justify-around lg:flex-row lg:gap-6">
+                <div
+                    class="flex flex-col gap-5 md:flex-row justify-center lg:justify-between xl:justify-around lg:flex-row lg:gap-6">
                     <!-- big card section -->
                     <div
                         class="w-[357px] lg:w-[424px] h-[380px] lg:h-[400px] rounded-xl px-[26px] lg:px-8 bg-color-2 relative">
@@ -311,7 +312,8 @@
         <!-- Low price section -->
         <div class="mx-4 my-9 lg:mx-36 lg:my-36">
             <h3 class="pt-8 text-2xl lg:text-4xl mb-9 lg:mb-12">Everyday low Price</h3>
-            <div class="flex flex-col gap-5 md:flex-row justify-center lg:justify-between xl:justify-around lg:flex-row lg:gap-6">
+            <div
+                class="flex flex-col gap-5 md:flex-row justify-center lg:justify-between xl:justify-around lg:flex-row lg:gap-6">
                 <!-- big card section -->
                 <div
                     class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] w-[357px] lg:w-[784px] h-[334px] lg:h-[480px] rounded-xl px-[34px] lg:px-[88px] relative">
@@ -338,16 +340,18 @@
             </div>
         </div>
     </main>
-    <footer class="mt-96 lg:mt-[405px] bg-color-3 h-[752px] lg:[654px] relative">
+    <footer class="mt-96 pt-96 lg:mt-[405px] bg-color-3 min-h-[752px] lg:[654px] relative">
         <!-- floating news section -->
-        <div class="mx-4 lg:mx-[140px] bg-[#FFF9F4] py-8 lg:py-10 lg:px-[90px] lg:w-[1320px] rounded-lg absolute -top-72">
-            <div class="flex flex-col lg:flex-row items-center lg:justify-evenly lg:items-start text-center lg:text-left lg:flex">
-                <div class="w-[190px] lg:w-[330px]  mb-8">
+        <div class="mx-auto bg-[#FFF9F4] max-w-[355px] lg:max-w-[1320px] rounded-lg absolute inset-x-0 -top-72">
+            <div
+                class="flex flex-col lg:flex-row items-center lg:justify-evenly lg:items-start text-center lg:text-left lg:flex">
+                <div class="w-[190px] pt-8 lg:pt-[38px] lg:w-[330px] mb-8">
                     <img src="assets/cute-pet-mid.png" alt="" class="w-full">
                 </div>
                 <div class="px-3 py-20">
                     <h3 class="text-[1.3rem] lg:text-4xl mb-3 lg:mb-5">Get Pawsome News!</h3>
-                    <p class="font-sora-font lg:text-xl mb-5">Exclusive training tips, ticks, product deals and more.</p>
+                    <p class="font-sora-font lg:text-xl mb-5">Exclusive training tips, ticks, product deals and more.
+                    </p>
                     <input type="email" name="" id="" placeholder="Enter email ..."
                         class="font-sora-font w-[312px] lg:w-[472px] lg:my-9 px-4 py-3 lg:p-5 rounded-xl bg-white mb-3 lg:block">
                     <button class="border bg-color-1 rounded-md px-7 py-2 font-sora-font md:text-xl">Subscribe</button>
@@ -355,7 +359,38 @@
             </div>
         </div>
         <!-- footer section -->
-        <div class=""></div>
+        <div class="footer sm:footer-horizontal text-base-content px-4 pt-4 lg:px-36 lg:justify-between lg:items-end">
+            <nav class="lg:max-w-[426px]">
+                <div class="flex justify-between items-center mb-4 lg:mb-6">
+                    <img src="assets/logo-footer.png" alt="">
+                    <a class="text-[1.25rem] lg:text-[1.675rem] ml-3">Browse<span class="text-color-1">4</span>Pets</a>
+                </div>
+                <p class="font-sora-font lg:text-xl">Discover a world of treats, toys, and essentials handpicked for
+                    your furry friends</p>
+            </nav>
+            <nav class="gap-4 font-sora-font lg:text-xl">
+                <a class="link link-hover">Find a pet</a>
+                <a class="link link-hover">Breeds</a>
+                <a class="link link-hover">Contact us</a>
+            </nav>
+            <nav>
+                <h6 class="font-sora-font text-[0.8rem] lg:text-[1rem]">Follow us</h6>
+                <div class="grid grid-flow-col gap-4">
+                    <a>
+                        <i class="fa-brands fa-facebook fa-xl"></i>
+                    </a>
+                    <a>
+                        <i class="fa-brands fa-instagram fa-xl"></i>
+                    </a>
+                    <a>
+                        <i class="fa-brands fa-linkedin fa-xl"></i>
+                    </a>
+                    <a>
+                        <i class="fa-brands fa-youtube fa-xl"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
     </footer>
 </body>
 
